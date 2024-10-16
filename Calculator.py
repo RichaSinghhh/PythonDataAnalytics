@@ -1,4 +1,4 @@
-# streamlit run file-name (like Calculator.py)
+# Terminal -> streamlit run file-name -> (like Calculator.py)
 import streamlit as st
 
 st.title("Calculator")
