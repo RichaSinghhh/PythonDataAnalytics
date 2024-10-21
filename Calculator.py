@@ -11,5 +11,24 @@ snum = c2.number_input("Enter second number", value = 0)
 options = ['Add', 'Subtract', 'Multiply', 'Divide']
 choice = st.radio("Select operation", options)
 
+button = st.button ("Calculator")
+
+if button :
+    if choice == 'Add':
+        result = fnum + snum
+    if choice == 'Subtract':
+        result = fnum - snum
+    if choice == 'Multiply':
+        result = fnum * snum
+    if choice == 'Divide':
+        result = fnum / snum
+
+st.success(f"The result is {result}")
+
+
+        
+
+
+
 
 
