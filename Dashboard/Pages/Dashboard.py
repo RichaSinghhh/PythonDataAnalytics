@@ -1,3 +1,5 @@
+# Terminal -> cd Dashboard -> Enter
+# streamlit run Home.py -> Enter
 import streamlit as st
 import pandas as pd
 import seaborn as sns
