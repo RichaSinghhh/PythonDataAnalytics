@@ -14,7 +14,9 @@ df = sns.load_dataset("titanic")
 # Display the dataset
 st.dataframe(df)
 
+st.sidebar.header("")
 st.sidebar.header("Filter Options")
+
 
 # gender filter
 gender = st.sidebar.multiselect('Gender',
